@@ -1,0 +1,1 @@
+namespace ClassLibrary1;public class Consol{    }
