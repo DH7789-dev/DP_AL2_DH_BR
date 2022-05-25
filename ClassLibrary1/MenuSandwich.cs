@@ -47,6 +47,6 @@ public class MenuSandwich
         _ingredients2.Add(new Ingredient("10g de mayonnaise"));
         _ingredients2.Add(new Ingredient("10g de salade"));
         
-        _sandwiches.Add(new Sandwich("Dieppois", _ingredients3, 4.5));
+        _sandwiches.Add(new Sandwich("Diepois", _ingredients3, 4.5));
     }
 }
