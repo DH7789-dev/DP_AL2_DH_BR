@@ -12,12 +12,16 @@ public class Order
         get => _sandwiches;
         set => _sandwiches = value ?? throw new ArgumentNullException(nameof(value));
     }
-
+    
     public Order(List<Sandwich> sandwiches)
     {
         _sandwiches = sandwiches;
     }
 
+    public void addSandwich(Sandwich sandwich)
+    {
+        _sandwiches.Add(sandwich);
+    }
 
     public double getPriceOrder()
     {

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Text;
 
 namespace ClassLibrary1;
 
@@ -31,5 +32,17 @@ public class Sandwich
         _name = name;
         _ingredients = ingredients;
         _price = price;
+    }
+
+
+    public String IngredientsToString()
+    {
+        StringBuilder result = new StringBuilder();
+        _ingredients.ForEach(ingredient =>
+        {
+            result.Append(ingredient.Name);
+        } );
+
+        return result.ToString();
     }
 }
