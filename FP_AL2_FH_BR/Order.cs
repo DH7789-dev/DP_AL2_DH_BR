@@ -1,6 +1,7 @@
 using System.Text;
+using ClassLibrary1;
 
-namespace ClassLibrary1;
+namespace FP_AL2_FH_BR;
 
 public class Order
 {
@@ -48,7 +49,7 @@ public class Order
             result.Append(sandwichToString(result, _sandwiches[i], i.ToString()));
         }
 
-        result.Append("price" + getPriceOrder());
+        result.Append("price : " + getPriceOrder());
         return result.ToString();
     }
 
@@ -57,7 +58,7 @@ public class Order
         stringBuilder.Append(numberOrder + ":" + sandwich.Name + "\n");
         sandwich.Ingredients.ForEach(ingredient =>
         {
-            stringBuilder.Append("         " + ingredient + "\n");
+            stringBuilder.Append("         " + ingredient.Name + "\n");
         });
 
         return stringBuilder;
