@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/davidhenriarnaud/RiderProjects/test1/ClassLibrary1/ClassLibrary1.csproj": {}
+    "/home/thibaud-briand/Programme/C#_/DP_AL2_DH_BR/ClassLibrary1/ClassLibrary1.csproj": {}
   },
   "projects": {
-    "/Users/davidhenriarnaud/RiderProjects/test1/ClassLibrary1/ClassLibrary1.csproj": {
+    "/home/thibaud-briand/Programme/C#_/DP_AL2_DH_BR/ClassLibrary1/ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davidhenriarnaud/RiderProjects/test1/ClassLibrary1/ClassLibrary1.csproj",
+        "projectUniqueName": "/home/thibaud-briand/Programme/C#_/DP_AL2_DH_BR/ClassLibrary1/ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "/Users/davidhenriarnaud/RiderProjects/test1/ClassLibrary1/ClassLibrary1.csproj",
-        "packagesPath": "/Users/davidhenriarnaud/.nuget/packages/",
-        "outputPath": "/Users/davidhenriarnaud/RiderProjects/test1/ClassLibrary1/obj/",
+        "projectPath": "/home/thibaud-briand/Programme/C#_/DP_AL2_DH_BR/ClassLibrary1/ClassLibrary1.csproj",
+        "packagesPath": "/home/thibaud-briand/.nuget/packages/",
+        "outputPath": "/home/thibaud-briand/Programme/C#_/DP_AL2_DH_BR/ClassLibrary1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/davidhenriarnaud/.nuget/NuGet/NuGet.Config"
+          "/home/thibaud-briand/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/davidhenriarnaud/.dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
